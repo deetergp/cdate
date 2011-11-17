@@ -11,7 +11,7 @@
 #Use: cdate
 #Ex: cdate
 
-date +&quot;%A, %B %d, %Y&quot; | pbcopy
+php -f script.php | pbcopy
 echo &quot;Current date is now ready in the pasteboard&quot;</string>
 	<key>escapequery</key>
 	<true/>
