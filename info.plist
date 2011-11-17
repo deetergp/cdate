@@ -7,16 +7,12 @@
 	<key>category</key>
 	<string>SCRIPTS</string>
 	<key>command</key>
-	<string>#Desc: Grabs current date and/or time from the command line
-#Use: cdate &lt;type&gt; &lt;format&gt;
-#Ex: cdate d l
+	<string>#Desc: Places current date in the pasteboard
+#Use: cdate
+#Ex: cdate
 
-#Type - Do you want the date (d), time (t) or both (b)?
-#Format - Do you want long (l) or short (s)?
-
-
-php -f script.php -- {query} | pbcopy
-echo &quot;Date/Time is now ready in the clipboard&quot;</string>
+date +&quot;%A, %B %d, %Y&quot; | pbcopy
+echo &quot;Current date is now ready in the pasteboard&quot;</string>
 	<key>escapequery</key>
 	<true/>
 	<key>escapequerybackquotes</key>
