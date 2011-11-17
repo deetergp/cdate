@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<false/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string>#Desc: Grabs current date and/or time from the command line
+#Use: cdate &lt;type&gt; &lt;format&gt;
+#Ex: cdate d l
+
+#Type - Do you want the date (d), time (t) or both (b)?
+#Format - Do you want long (l) or short (s)?
+
+
+php -f script.php -- {query} | pbcopy
+echo &quot;Date/Time is now ready in the clipboard&quot;</string>
+	<key>escapequery</key>
+	<true/>
+	<key>escapequerybackquotes</key>
+	<false/>
+	<key>escapequeryquotes</key>
+	<true/>
+	<key>growloutput</key>
+	<true/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>cdate</string>
+	<key>logging</key>
+	<false/>
+	<key>silent</key>
+	<true/>
+	<key>subtitle</key>
+	<string>Copy current time info</string>
+	<key>title</key>
+	<string>Copy current date/time to the pasteboard</string>
+</dict>
+</plist>
