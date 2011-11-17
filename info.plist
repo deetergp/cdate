@@ -30,8 +30,8 @@ echo &quot;Current date is now ready in the pasteboard&quot;</string>
 	<key>silent</key>
 	<true/>
 	<key>subtitle</key>
-	<string>Copy current date</string>
-	<key>title</key>
 	<string>Copy current date to the pasteboard</string>
+	<key>title</key>
+	<string>Copy current date</string>
 </dict>
 </plist>
