@@ -13,6 +13,9 @@ else if ($q == 't') {
 else if ($q == 'b') {
   echo date('l\, F jS\, Y h\:i\:s A');
 }
+else if ($q == 's') {
+  echo date('Ymd');
+}
 else {
   echo date('l jS \of F Y');
 }

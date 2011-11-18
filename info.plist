@@ -13,6 +13,7 @@
 
 #Types of time information available are
 # d-date (Day, Month Date, Year)
+# s-short date (YYYYMMDD)
 # t-time (HH:MM:SS AM/PM)
 # b-both date &amp; time
 
