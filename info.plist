@@ -39,8 +39,8 @@ echo "Current date is now ready in the pasteboard"</string>
 	<key>silent</key>
 	<true/>
 	<key>subtitle</key>
-	<string>Copy current date to the pasteboard</string>
+	<string>Copy current time or date to the pasteboard</string>
 	<key>title</key>
-	<string>Copy current date</string>
+	<string>Copy current time/date</string>
 </dict>
 </plist>
